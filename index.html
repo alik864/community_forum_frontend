@@ -7,7 +7,6 @@
 <script src="/js/app.js" type="text/javascript" charset="utf-8" async defer></script>
 <head>
 <div class="header"></div>
-<p> My Account </p>
 <br/>
 <title>Community Forum</title>
 </head>
@@ -15,27 +14,26 @@
 <h1>The Community Forum - West Adams Street </h1>
 
 
-<div>
 <br />
-<input type='text' name="title" id="title">
-Subject.
+<input type='text' value="Subject" id="title">
 </input><br />
-<input type='textarea' name="content" id="content">
-Write your post here.
+<input type='textarea' value="Write your post here." id="content">
 </input><br />
-<input type="submit" value="Submit Posting" id='create-post' />
-</div>
+
 
 <select>
-  <option value="Classes">Volvo</option>
-  <option value="Events">Saab</option>
-  <option value="Sell">Mercedes</option>
-  <option value="Buy">Audi</option>
-  <option value="Free Stuff">Volvo</option>
-  <option value="Local Issues">Saab</option>
-  <option value="Crime Report">Mercedes</option>
-  <option value="None Apply">Audi</option>
+  <option value="Classes">Classes</option>
+  <option value="Events">Events</option>
+  <option value="Sell">Sell</option>
+  <option value="Buy">Buy</option>
+  <option value="Free Stuff">Free Stuff</option>
+  <option value="Local Issues">Local Issues</option>
+  <option value="Crime Report">Crime Report</option>
+  <option value="None Apply">None Apply</option>
 </select>
+
+<input type="submit" value="Submit Posting" id='create-post' />
+</div>
 
 <div  class="forum">
   <ul id='all-posts'>

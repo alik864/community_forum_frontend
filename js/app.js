@@ -21,12 +21,16 @@ $(document).ready(function(){
       data: postData,
       dataType: 'json'
     })
+
+    // Once the server has the info it post to website"
     .done(function(result){
       console.log("Added post");
       $('#title').val('');
       $('#content').val('');
       getAllPosts();
     })
+
+    // if there is error then an alert will come up
     .fail(function(){
       alert('Error: failed to create a new post');
     })
@@ -37,7 +41,8 @@ $(document).ready(function(){
 
 });
 
-
+// this allows for post to show up in live time without
+//refreshing the page
 function getAllPosts(){
    $.ajax({
     url: 'http://localhost:3000/posts',
