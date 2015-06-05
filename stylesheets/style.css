@@ -36,7 +36,7 @@ h1 {
   font-size: 15px;
 }
 
-textarea#comments {
+input#content {
   margin: 0 auto;
   display: table;
   width: 500px;
@@ -48,7 +48,7 @@ textarea#comments {
   font-size: 14px;
 }
 
-textarea#subject {
+input#title {
   margin: 0 auto;
   display: table;
   border-style: ridge;

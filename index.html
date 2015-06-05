@@ -4,7 +4,7 @@
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.js"></script>
-<<script src="/js/app.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="/js/app.js" type="text/javascript" charset="utf-8" async defer></script>
 <head>
 <div class="header"></div>
 <p> My Account </p>
@@ -12,24 +12,37 @@
 <title>Community Forum</title>
 </head>
 <body>
-
 <h1>The Community Forum - West Adams Street </h1>
 
 
-<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<div>
 <br />
-<textarea name="subject" id="subject">
+<input type='text' name="title" id="title">
 Subject.
-</textarea><br />
-<textarea name="comments" id="comments">
+</input><br />
+<input type='textarea' name="content" id="content">
 Write your post here.
-</textarea><br />
-<input type="submit" value="Submit Posting" />
-</form>
+</input><br />
+<input type="submit" value="Submit Posting" id='create-post' />
+</div>
+
+<select>
+  <option value="Classes">Volvo</option>
+  <option value="Events">Saab</option>
+  <option value="Sell">Mercedes</option>
+  <option value="Buy">Audi</option>
+  <option value="Free Stuff">Volvo</option>
+  <option value="Local Issues">Saab</option>
+  <option value="Crime Report">Mercedes</option>
+  <option value="None Apply">Audi</option>
+</select>
 
 <div  class="forum">
   <ul id='all-posts'>
   </ul>
+</div>
+
+<div id='selected-post'>
 </div>
 
 <div class="footer"></div>
