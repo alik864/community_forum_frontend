@@ -65,28 +65,12 @@ input#title {
 }
 
 
-
-p {
-  padding: 9px;
-  color: rgb(173, 168, 168);
-  margin-right: 2em;
-  font-family: 'Raleway', sans-serif;
-  border-bottom-style: groove;
-  border-color: blanchedalmond;
-}
-
 .footer {
   height: 150px;
   background-color: rgb(225, 225, 225);
   margin-top: 3em;
   margin-left: -12em;
   margin-right: -12em;
-}
-
-.post-entry {
-  list-style: square;
-  margin-bottom: 3em;
-  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -98,4 +82,17 @@ p {
   display: table;
   border-style: outset;
   border-color: currentColor;
+}
+
+
+.post-entry {
+  list-style: square;
+  margin-bottom: 3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  list-style-position: inside;
+  background-color: rgb(162, 174, 195);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-left: -3em;
 }
