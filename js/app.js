@@ -18,8 +18,8 @@ var category_id = $("#categories option:selected").val();
       post: {
         title: $('#title').val(),
         content: $('#content').val(),
-        category_id: category_id
-      }
+      },
+     category_id: category_id
     };
 
     // sent the post data the user entering

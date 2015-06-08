@@ -1,13 +1,5 @@
 
 
-h1 {
-  margin: 0 auto;
-  display: table;
-  color: cadetblue;
-  font-family: 'Lobster', cursive;
-  margin-top: 2em;
-}
-
 select {
   margin: 0 auto;
   display: table;
@@ -95,4 +87,25 @@ input#title {
   color: rgb(255, 255, 255);
   padding: 20px;
   margin-left: -3em;
+}
+
+h3 {
+  margin: 0 auto;
+  display: table;
+  color: rgb(162, 174, 195);
+  font-style: italic;
+  margin-top: 15px;
+}
+
+img {
+  margin: 0 auto;
+  display: table;
+}
+
+h1 {
+  margin: 0 auto;
+  display: table;
+  color: cadetblue;
+  font-family: 'Lobster', cursive;
+  margin-top: 11px;
 }
